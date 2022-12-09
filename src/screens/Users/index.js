@@ -1,5 +1,5 @@
 import {View,Text, FlatList, Pressable} from 'react-native';
-import React, { useEffect ,useState } from 'react';
+import React, {useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import Styles from './style';
 import routes from '../../common/routes';

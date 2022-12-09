@@ -1,9 +1,8 @@
 
 import { useNavigation, useRoute } from '@react-navigation/native';
 import React, { useEffect } from 'react';
-import {StyleSheet,View,Text, Pressable,FlatList} from 'react-native';
-import styles from './style'
-
+import {View,Text} from 'react-native';
+import styles from './style';
 const USERS_URL = 'https://jsonplaceholder.typicode.com/users';
 
 export default function  details(){
@@ -27,23 +26,8 @@ useEffect(() => {
         </View >
     )
 }
-   // return (
-    //     <FlatList
-    //     data={routeInformation.params.users}
-    //     renderItem={({item:{name ,hexCode}})=>(
-    //         <Box title={name} bgColor ={hexCode}/>
-    //     )}
-    // keyExtractor={item=>item.hexCode}
-    // ListHeaderComponent={
-    //     <Text style={styles.text}> Here are some boxes with color names</Text>
-    // }
-    // ListEmptyComponent={
-    //     <View>
-    //         <Text> empty list </Text>
-    //     </View>
-    // }
-    // style={styles.containerStyle}/>
-    // );
+
+
 
 
 
