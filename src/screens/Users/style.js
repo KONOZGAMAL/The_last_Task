@@ -1,0 +1,30 @@
+import { StyleSheet } from "react-native";
+export default StyleSheet.create({
+    containerStyle:{
+     flex:1,
+     backgroundColor:'white',
+     borderWidth:1,
+     padding:10,
+    },
+    containerStyle_1:{
+        fontSize:16,
+        marginHorizontal:30,
+        marginBottom:3,
+         color:"#3D9776"
+    },
+    containerStyle_2:{
+       textAlign:'center',
+        fontSize:18,
+        borderWidth:1,
+        marginVertical:7,
+        backgroundColor:'#B49298',
+        color:'white',
+        marginHorizontal:120,
+        padding:5,
+    },
+    containerStyle_3:{
+        color:'#EB8F4C',
+        fontSize:16,
+        marginBottom:3,
+    }
+})
